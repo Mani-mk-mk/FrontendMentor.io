@@ -38,8 +38,6 @@ Users should be able to:
 - Solution URL: [Github Repo](https://github.com/Mani-mk-mk/FrontendMentor.io/tree/main/tip-calculator-app-main)
 - Live Site URL: [Live site](https://mani-mk-mk.github.io/FrontendMentor.io/tip-calculator-app-main/)
 
-## My process
-
 ### Built with
 
 - Semantic HTML5 markup
