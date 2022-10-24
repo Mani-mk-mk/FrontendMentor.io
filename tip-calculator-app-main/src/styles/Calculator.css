@@ -73,6 +73,7 @@ main {
 		justify-content: center;
 		margin: 2.5rem 1rem;
 		gap: 2.5rem;
+		border-radius: 2.5rem;
 		min-width: 650px;
 		width: 62.5%;
 	}
