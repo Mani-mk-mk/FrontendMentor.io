@@ -45,13 +45,21 @@
 	appearance: textfield;
 	width: 100%;
 	padding-block: 0.8rem;
+	padding-inline: 1rem;
 	border-radius: 0.4rem;
 	background-color: var(--very-light-grayish-cyan);
 	color: var(--very-dark-cyan);
+	text-align: end;
 }
 
 .custom-tip:focus {
 	border: none;
 	border-width: 0;
-	outline: none;
+	outline: 2px solid var(--strong-cyan);
+}
+
+@media screen and (min-width: 450px) {
+	.tips__container {
+		grid-template-columns: repeat(3, 1fr);
+	}
 }
