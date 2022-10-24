@@ -1,5 +1,6 @@
 import React from "react";
 import "../styles/Bill.css";
+import "../App.css";
 import dollar from "../images/icon-dollar.svg";
 import person from "../images/icon-person.svg";
 

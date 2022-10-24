@@ -3,11 +3,7 @@
 	flex-direction: column;
 	justify-content: center;
 	position: relative;
-	margin-inline: 2rem;
-	margin-block: 1.5rem;
-	font-weight: 700;
-	font-family: "Space Mono", monospace;
-	/* background-color: var(--white); */
+	margin: 1.5rem 2rem;
 }
 
 .label__container {
@@ -22,12 +18,13 @@
 
 label {
 	font-size: 1.5rem;
-	color: hsl(186, 14%, 43%);
+	color: var(--dark-grayish-cyan);
 }
 
 .bill__payable[type="number"] {
 	border-width: 0;
 	appearance: textfield;
+	font-family: "Space mono", monospace;
 }
 
 .bill__payable {
@@ -43,8 +40,7 @@ label {
 
 .bill__payable:focus {
 	border-width: 0;
-	outline: 2.5px solid var(--strong-cyan);
-	/* outline: none; */
+	outline: 2px solid var(--strong-cyan);
 }
 
 .bill__payable::placeholder {
