@@ -1,0 +1,57 @@
+.tips__container {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	align-items: center;
+	text-align: center;
+	padding: 1.6rem 2.5rem;
+	gap: 1.2rem;
+	color: var(--white);
+}
+
+.label {
+	font-weight: 700;
+	font-family: "Space Mono", monospace;
+	font-size: 1.8rem;
+	padding: 1rem 2rem 0.5rem;
+	color: var(--dark-grayish-cyan);
+}
+
+.tip {
+	font-family: "Space Mono", monospace;
+	padding: 0.8rem 1.2rem;
+	font-weight: 700;
+	font-size: 2rem;
+	border-radius: 0.4rem;
+	background-color: var(--very-dark-cyan);
+	cursor: pointer;
+}
+
+.tip:hover {
+	color: var(--very-dark-cyan);
+	background-color: var(--strong-cyan);
+	transition: all 0.2s ease-out;
+}
+
+.custom-tip::placeholder,
+.custom-tip[type="number"] {
+	text-align: center;
+	font-size: 2rem;
+	font-family: "Space Mono", monospace;
+	font-weight: 700;
+}
+
+.custom-tip[type="number"] {
+	border-width: 0;
+	appearance: textfield;
+	width: 100%;
+	padding-block: 0.8rem;
+	border-radius: 0.4rem;
+	background-color: var(--very-light-grayish-cyan);
+	color: var(--very-dark-cyan);
+}
+
+.custom-tip:focus {
+	border: none;
+	border-width: 0;
+	outline: none;
+}

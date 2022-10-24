@@ -1,0 +1,53 @@
+.bill__container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	position: relative;
+	margin-inline: 2rem;
+	margin-block: 1.5rem;
+	font-weight: 700;
+	font-family: "Space Mono", monospace;
+	/* background-color: var(--white); */
+}
+
+.label__container {
+	display: flex;
+	justify-content: space-between;
+}
+
+.zero-people {
+	color: orangered;
+	font-size: 1.5rem;
+}
+
+label {
+	font-size: 1.5rem;
+	color: hsl(186, 14%, 43%);
+}
+
+.bill__payable[type="number"] {
+	border-width: 0;
+	appearance: textfield;
+}
+
+.bill__payable {
+	font-weight: inherit;
+	text-align: end;
+	width: 100%;
+	background-color: var(--very-light-grayish-cyan);
+	padding: 1.2rem;
+	font-size: 2rem;
+	color: var(--very-dark-cyan);
+	border-radius: 8px;
+}
+
+.bill__payable:focus {
+	border-width: 0;
+	outline: 2.5px solid var(--strong-cyan);
+	/* outline: none; */
+}
+
+.bill__payable::placeholder {
+	text-align: end;
+	color: var(--very-dark-cyan);
+}
