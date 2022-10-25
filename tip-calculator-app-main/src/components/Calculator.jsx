@@ -100,7 +100,7 @@ const Calculator = () => {
 						</div>
 					</div>
 
-					{tip === "" && bill === "" ? (
+					{(tip === "" && bill === "") || (bill === 0 && person === 0) ? (
 						<div className="btn">
 							<button disabled onClick={resetValues} className="reset">
 								reset

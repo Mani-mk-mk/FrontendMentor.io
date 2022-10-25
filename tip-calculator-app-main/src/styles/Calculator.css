@@ -1,6 +1,6 @@
 main {
 	background-color: var(--white);
-	padding-top: 1.6rem;
+	padding: 1.5rem;
 	border-top-left-radius: 2.5rem;
 	border-top-right-radius: 2.5rem;
 	display: flex;
@@ -51,21 +51,21 @@ main {
 	text-align: center;
 	text-transform: uppercase;
 	font-size: 2rem;
-	padding: 0.75rem 3rem;
+	padding: 0.75rem 0rem;
 	border: 0;
-	flex-basis: 90%;
+	flex-basis: 100%;
 	background-color: var(--strong-cyan);
 	color: var(--very-dark-cyan);
 	border-radius: 0.75rem;
-	margin-top: 1.5rem;
+	margin-top: 2rem;
 }
 
 .reset:disabled {
-	background: var(--light-grayish-cyan);
+	background: hsl(183, 79%, 24%);
 }
 
 .reset:disabled:hover {
-	background: var(--light-grayish-cyan);
+	background: hsl(183, 79%, 24%);
 }
 
 .reset:hover {
@@ -107,15 +107,15 @@ main {
 
 	.tip-label,
 	.total-label {
-		font-size: 1.65rem;
+		font-size: 1.5rem;
 	}
 
 	.tip-amount,
 	.total-amount {
-		font-size: 3.75rem;
+		font-size: 4rem;
 	}
 
 	.reset {
-		margin-inline: 2rem;
+		/* margin-inline: 2rem; */
 	}
 }
