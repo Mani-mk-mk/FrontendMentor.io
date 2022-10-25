@@ -100,9 +100,19 @@ const Calculator = () => {
 						</div>
 					</div>
 
-					<div onClick={resetValues} className="reset">
-						reset
-					</div>
+					{tip === "" && bill === "" ? (
+						<div className="btn">
+							<button disabled onClick={resetValues} className="reset">
+								reset
+							</button>
+						</div>
+					) : (
+						<div className="btn">
+							<button onClick={resetValues} className="reset">
+								reset
+							</button>
+						</div>
+					)}
 				</div>
 			</main>
 		</div>

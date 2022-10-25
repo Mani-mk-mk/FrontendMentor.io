@@ -1,9 +1,8 @@
 main {
 	background-color: var(--white);
-	padding-block: 1.6rem;
+	padding-top: 1.6rem;
 	border-top-left-radius: 2.5rem;
 	border-top-right-radius: 2.5rem;
-
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -42,16 +41,31 @@ main {
 	font-weight: 700;
 }
 
+.btn {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
 .reset {
 	text-align: center;
 	text-transform: uppercase;
 	font-size: 2rem;
 	padding: 0.75rem 3rem;
-	/* outline: 3px solid red; */
+	border: 0;
+	flex-basis: 90%;
 	background-color: var(--strong-cyan);
 	color: var(--very-dark-cyan);
 	border-radius: 0.75rem;
 	margin-top: 1.5rem;
+}
+
+.reset:disabled {
+	background: var(--light-grayish-cyan);
+}
+
+.reset:disabled:hover {
+	background: var(--light-grayish-cyan);
 }
 
 .reset:hover {
@@ -89,6 +103,16 @@ main {
 		padding: 2.5rem 3rem;
 		flex-direction: column;
 		justify-content: space-between;
+	}
+
+	.tip-label,
+	.total-label {
+		font-size: 1.65rem;
+	}
+
+	.tip-amount,
+	.total-amount {
+		font-size: 3.75rem;
 	}
 
 	.reset {
