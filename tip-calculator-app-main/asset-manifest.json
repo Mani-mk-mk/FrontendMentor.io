@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/FrontendMentor.io/tip-calculator-app-main/static/css/main.58a0c7a1.css",
+    "main.css": "/FrontendMentor.io/tip-calculator-app-main/static/css/main.fac6340e.css",
     "main.js": "/FrontendMentor.io/tip-calculator-app-main/static/js/main.d0334029.js",
     "static/media/logo.svg": "/FrontendMentor.io/tip-calculator-app-main/static/media/logo.3cc0528bd46321d63d85702006069614.svg",
     "static/media/icon-dollar.svg": "/FrontendMentor.io/tip-calculator-app-main/static/media/icon-dollar.9f9be3534a9295a6595764d63a7bf3a3.svg",
     "static/media/icon-person.svg": "/FrontendMentor.io/tip-calculator-app-main/static/media/icon-person.65bfd20465dd1d2cb58c0b53e1160442.svg",
     "index.html": "/FrontendMentor.io/tip-calculator-app-main/index.html",
-    "main.58a0c7a1.css.map": "/FrontendMentor.io/tip-calculator-app-main/static/css/main.58a0c7a1.css.map",
+    "main.fac6340e.css.map": "/FrontendMentor.io/tip-calculator-app-main/static/css/main.fac6340e.css.map",
     "main.d0334029.js.map": "/FrontendMentor.io/tip-calculator-app-main/static/js/main.d0334029.js.map"
   },
   "entrypoints": [
-    "static/css/main.58a0c7a1.css",
+    "static/css/main.fac6340e.css",
     "static/js/main.d0334029.js"
   ]
 }
