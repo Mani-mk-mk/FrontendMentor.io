@@ -1,5 +1,5 @@
-const getJSON = async (path, callback) => {
-	return callback(await fetch(path).then((r) => r.json()));
+const getJSON = (path, callback) => {
+	return callback(fetch(path).then((r) => r.json()));
 };
 
 getJSON("../data.json", (response) => {
