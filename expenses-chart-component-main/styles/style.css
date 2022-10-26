@@ -157,7 +157,7 @@ body {
 }
 
 .attribution {
-	width: 90%;
+	width: 92%;
 	font-size: 1.6rem;
 	color: var(--medium-brown);
 	padding: 2rem 1.75rem;
@@ -175,4 +175,16 @@ body {
 	color: var(--dark-brown);
 	background-color: red;
 	font-weight: 400;
+}
+
+@media screen and (min-width: 450px) {
+	.attribution,
+	.expenses__balance,
+	.expenses__dashboard {
+		width: max(27%, 365px);
+	}
+
+	.expense-chart {
+		width: 4rem;
+	}
 }
