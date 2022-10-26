@@ -2,6 +2,8 @@ const getJSON = async (path, callback) => {
 	return callback(await fetch(path).then((r) => r.json()));
 };
 
+console.log("Hello");
+
 getJSON("../data.json", (response) => {
 	fillData(response);
 });
