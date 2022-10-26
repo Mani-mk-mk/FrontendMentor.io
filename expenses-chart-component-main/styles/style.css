@@ -41,7 +41,7 @@ body {
 	color: white;
 	background-color: var(--soft-red);
 	padding: 2rem 1.75rem;
-	width: 90%;
+	width: 92%;
 	margin-inline: 1rem;
 	border-radius: 1.2rem;
 
@@ -60,7 +60,7 @@ body {
 }
 
 .expenses__dashboard {
-	width: 90%;
+	width: 92%;
 	padding: 2rem 1.75rem;
 	background-color: white;
 	margin-top: 3rem;
@@ -71,11 +71,50 @@ body {
 .spending-title {
 	color: var(--dark-brown);
 	font-size: 2.5rem;
-	padding-block: 1.2rem 1.6rem;
+	padding-block: 1.2rem 0.8rem;
 }
 
 .dashboard {
-	border-bottom: 3px solid var(--cream);
+	height: 25rem;
+	margin-bottom: 2rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+}
+
+.expense {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.expense__amount {
+	font-size: 1.2rem;
+	font-weight: 700;
+	padding: 0.4rem;
+	color: var(--cream);
+	border-radius: 4px;
+	margin-block: 0.4rem;
+	background-color: var(--dark-brown);
+	visibility: hidden;
+}
+
+.expense-chart {
+	background-color: var(--soft-red);
+	height: 15rem;
+	width: 3.4rem;
+	border-radius: 0.4rem;
+	margin-block: 0.5rem 1rem;
+	cursor: pointer;
+}
+
+.expense-day {
+	margin-block: 0.5rem;
+	text-align: center;
+	align-items: center;
+	color: var(--medium-brown);
+	font-size: 1.4rem;
 }
 
 .expenditure {
@@ -84,6 +123,7 @@ body {
 	justify-content: space-between;
 	align-items: flex-end;
 	padding-block: 2.4rem 1.2rem;
+	border-top: 3px solid var(--cream);
 }
 
 .expenditure__left-total {
