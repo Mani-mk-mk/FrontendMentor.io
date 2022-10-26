@@ -4,7 +4,7 @@ const getJSON = async (path, callback) => {
 
 console.log("Hello");
 
-getJSON("../expenses-chart-component-main/data.json", (response) => {
+getJSON("../data.json", (response) => {
 	fillData(response);
 });
 
