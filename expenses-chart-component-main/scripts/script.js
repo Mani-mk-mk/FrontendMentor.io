@@ -1,12 +1,16 @@
+// console.log("Its not working");
+
 const getJSON = async (path, callback) => {
 	return callback(await fetch(path).then((r) => r.json()));
 };
 
-console.log("Hello");
-
-getJSON("https://mani-mk-mk.github.io/FrontendMentor.io/expenses-chart-component-main/data.json", (response) => {
-	fillData(response);
-});
+getJSON(
+	"https://mani-mk-mk.github.io/FrontendMentor.io/expenses-chart-component-main/data.json",
+	(response) => {
+		// console.log(response);
+		fillData(response);
+	}
+);
 
 const fillData = (data) => {
 	data.forEach((res) => {
@@ -17,7 +21,7 @@ const fillData = (data) => {
 		if (res.day === "wed")
 			expense_chart.style.backgroundColor = "hsl(186, 34%, 60%)";
 
-		// console.log(res.amount);
+		console.log(res.amount);
 		expense_chart.style.height = res.amount * 3.2 + "px";
 
 		const expense_day = document.querySelector(`.expense__${res.day}-day`);
